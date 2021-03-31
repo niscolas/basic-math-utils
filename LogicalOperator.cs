@@ -1,5 +1,7 @@
-﻿namespace Plugins.MathUtils {
-	public enum LogicalOperator {
+﻿namespace MathUtils
+{
+	public enum LogicalOperator
+	{
 		And,
 		Or,
 		Not

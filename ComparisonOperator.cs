@@ -1,10 +1,12 @@
-﻿namespace Plugins.MathUtils {
-	public enum ComparisonOperator {
+﻿namespace MathUtils
+{
+	public enum ComparisonOperator
+	{
 		EqualTo,
 		NotEqual,
 		GreaterThan,
 		GreaterThanOrEqualTo,
 		LessThan,
-		LessThanOrEqualTo,
+		LessThanOrEqualTo
 	}
 }

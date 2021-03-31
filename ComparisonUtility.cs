@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Plugins.MathUtils
+namespace MathUtils
 {
 	public static class ComparisonUtility
 	{

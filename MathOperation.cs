@@ -1,5 +1,7 @@
-﻿namespace Plugins.MathUtils {
-	public enum MathOperation {
+﻿namespace MathUtils
+{
+	public enum MathOperation
+	{
 		Sum,
 		Subtract,
 		Divide,
