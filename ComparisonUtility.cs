@@ -1,9 +1,13 @@
 ﻿using System;
 
-namespace Plugins.MathUtils {
-	public static class ComparisonUtility<T> where T : IComparable {
-		public static bool Compare(T x, ComparisonOperator comparisonOperator, T y) {
-			return comparisonOperator switch {
+namespace Plugins.MathUtils
+{
+	public static class ComparisonUtility
+	{
+		public static bool Compare<T>(T x, ComparisonOperator comparisonOperator, T y) where T : IComparable
+		{
+			return comparisonOperator switch
+			{
 				ComparisonOperator.EqualTo => x.CompareTo(y) == 0,
 				ComparisonOperator.NotEqual => x.CompareTo(y) != 0,
 				ComparisonOperator.GreaterThan => x.CompareTo(y) > 0,
